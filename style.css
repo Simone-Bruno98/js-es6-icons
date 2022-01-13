@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+}
+header{
+    padding: 0 100px;
+    background-color: white;
+    height: 100px;
+}
+header img{
+    height: 80px;
+}
+nav{
+    height: 100px;
+    background-color: #29B1DD;
+    line-height: 100px;
+    color: white;
+    font-size: 30px;
+}
+main{
+    height: calc(100vh - 200px);
+    background-color: #DDDDDD;
+}
+.card{
+    height:200px;
+    border: yellow 3px solid;
+    border-radius: 50px 50px;
+    line-height: 200px;
+    padding: auto auto;
+}
+.card i{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
