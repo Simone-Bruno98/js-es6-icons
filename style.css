@@ -1,5 +1,6 @@
 body{
     margin: 0 auto;
+    background-color: #DDDDDD;
 }
 header{
     padding: 0 100px;
@@ -16,18 +17,23 @@ nav{
     color: white;
     font-size: 30px;
 }
-main{
-    height: calc(100vh - 200px);
-    background-color: #DDDDDD;
-}
 .card{
-    height:200px;
-    border: yellow 3px solid;
+    height:150px;
+    border: black 3px solid;
     border-radius: 50px 50px;
-    line-height: 200px;
+    line-height: 150px;
     padding: auto auto;
 }
 .card i{
     font-size: 70px;
     margin-bottom: 10px;
+}
+.card h3{
+    font-size: 25px;
+}
+.card h3,i{
+    vertical-align: middle;
+}
+.cardname{
+    text-transform:uppercase;
 }
